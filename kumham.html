@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="logoKumham.png">
+    <title>Kementrian Hukum dan Hak azasi Manusia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Peddana&display=swap" rel="stylesheet"> 
+    <style>
+        /*header*/
+        .headerLogo{
+            border: 2px solid;
+            margin-bottom: 10px;
+            border-width: 50px;
+            background-color:brown;
+            border-color:brown;
+            position: relative;
+        }
+        .headerLogo img{
+            margin-left: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+        }
+        .headerLogo h2{
+            border: 1px none;
+            color: white;
+            margin-top: -80px;
+            margin-left: 85px;
+            margin-right: 600px;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Peddana', serif;
+            font-size: 28px;
+        }
+        .headerLogo h3{
+            border: 1px none;
+            margin-top: -45px;
+            margin-left: 85px;
+            margin-right: 600px;
+            color: white;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Peddana', serif;
+            font-size: 25px;
+        }
+        .headerLogo input{
+            margin-left: 800px;
+            margin-top: -90px;
+            position: absolute;
+            width:320px;
+        }
+        /* MENU HEADER*/
+         .MenuHeader{
+            border: 1px none;
+            position: relative;
+            margin-top: -75px;
+            top:30px;
+            height: 50px;
+            line-height: 50px;
+            background-color:darkgrey;
+            margin-left: 40px;
+            margin-right: 40px;
+            border-color: darkred;
+        }
+        .MenuHeader ul{
+            border: 1px none;
+        }
+        .MenuHeader ul ul{
+            display: none;
+            position: absolute;
+            background-color:darkgrey;
+            border: 6px solid;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom-color:brown;
+
+        }
+        .MenuHeader ul li:hover ul{
+            display: block;
+        }
+        .MenuHeader a:hover{
+            background-color: white;
+        }
+        .profilMenu{
+            margin-left: -20px;
+            margin-top: 50px;
+        }
+        .produkHukum{
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        .unitPusat{
+            margin-left: 250px;
+            margin-top: 50px;
+        }
+        .kantorWilayah{
+            margin-left: 380px;
+            margin-top: 50px;
+        }
+        .informasiPublik{
+            margin-left: 520px;
+            margin-top: 50px;
+        }
+        .publikasi{
+            margin-left: 660px;
+            margin-top: 50px;
+        }
+        .layananPublik{
+            margin-left: 800px;
+            margin-top: 50px;
+        }
+        .MenuHeader ul li{
+            list-style-type: none;
+        }
+    
+        .MenuHeader a{
+            text-decoration: none;
+            color:black;
+            width: 150px;
+            float: left;
+            margin-left: -10px;
+            text-align: center;
+        }
+         /* foto Kumham*/
+         .contentKumham img{
+             margin-top: 40px ;
+             margin-left: 40px ;
+             margin-right: 110px;
+             border: 1px none;
+         }
+         /* Content Kumham*/
+         .contentKumham2{
+             border: 1px none;
+             position: relative;
+             margin-top: 30px;
+             height: 50px;
+             margin-left: 38px;
+             margin-right:30px ;
+             background-color: brown;
+             padding: 5px;
+         }
+         .contentKumham2 ul li{
+             list-style-type: none;
+         }
+         .contentKumham2 a{
+             text-decoration: none;
+             color:white;
+             text-align: center;
+            width: 180px;
+            float: left;
+            margin-left: 5px;
+            height: 50px;
+         }
+         .contentKumham2 a:hover{
+             background-color: white;
+             color:brown;
+         }
+         .contentKumham a:visited{
+             background-color: aqua;
+         }
+         /* Logo Kumham*/
+         .simbolKumham{
+             border: 1px solid;
+             border-top: none;
+             margin-top: 0px;
+             margin-right:30px;
+             margin-left:38px;
+             position: relative;
+             padding: 5px;
+             padding-top: 15px;
+             height: 130px;
+             
+         }
+         .simbolKumham1{
+             border: 1px none;
+             margin-bottom: 5px;
+             position: absolute;
+             margin-left: 3px;
+             text-align: center;
+         }
+         .simbolKumham1 p{
+             font-size: 11px;
+         }
+         .simbolKumham2{
+            border: 1px none;
+             margin-bottom:5px ;
+             margin-left:120px ;
+             margin-top: 1px;
+             position: absolute;
+             text-align: center;
+         }
+         .simbolKumham2 p{
+             font-size: 11px;
+         }
+         .simbolKumham3{
+            border: 1px none;
+             margin-bottom:5px ;
+             margin-left:210px ;
+             margin-top: 1px;
+             position: absolute;
+             text-align: center;
+         }
+         .simbolKumham3 p{
+             font-size: 11px;
+         }
+         .simbolKumham4{
+            border: 1px none;
+             margin-bottom:5px ;
+             margin-left:300px ;
+             margin-top: 1px;
+             position: absolute;
+             text-align: center;
+         }
+         .simbolKumham4 p{
+             font-size: 11px;
+         }
+         .simbolKumham5{
+            border: 1px none;
+             margin-bottom:5px ;
+             margin-left:390px ;
+             margin-top: 1px;
+             position: absolute;
+             text-align: center;
+             
+         }
+         .simbolKumham5 p{
+             font-size: 11px;
+         }
+         .simbolKumham6{
+            border: 1px none;
+             margin-bottom:5px ;
+             margin-left:482px ;
+             margin-top: 1px;
+             position: absolute;
+             text-align: center;
+         }
+         .simbolKumham6 p{
+             font-size: 11px;
+         }
+         .simbolKumham7{
+            border: 1px none;
+             margin-bottom:5px ;
+             margin-left:570px ;
+             margin-top: 1px;
+             position: absolute;
+             text-align: center;
+         }
+         .simbolKumham7 p{
+             font-size: 11px;
+         }
+         .simbolKumham8{
+            border: 1px none;
+             margin-bottom:5px ;
+             margin-left:660px ;
+             margin-top: 1px;
+             position: absolute;
+             text-align: center;
+         }
+         .simbolKumham8 p{
+             font-size: 11px;
+         }
+         .simbolKumham9{
+            border: 1px none;
+             margin-bottom:5px ;
+             margin-left:770px ;
+             margin-top: 1px;
+             position: absolute;
+             text-align: center;
+         }
+         .simbolKumham9 p{
+             font-size: 11px;
+         }
+         .simbolKumham10{
+            border: 1px none;
+             margin-bottom:5px ;
+             margin-left:860px ;
+             margin-top: 1px;
+             position: absolute;
+             text-align: center;
+         }
+         .simbolKumham10 p{
+             font-size: 11px;
+         }
+         .simbolKumham11{
+            border: 1px none;
+             margin-bottom:5px ;
+             margin-left:975px ;
+             margin-top: 1px;
+             position: absolute;
+             text-align: center;
+         }
+         .simbolKumham11 p{
+             font-size: 11px;
+         }
+
+         /* BERITA KUMHAM*/
+         .beritaKumham{
+             margin-left:35px ;
+             margin-top: 20px;
+
+         }
+    </style>
+</head> 
+<body>
+    <div class="headerLogo">
+        <img src="logoKumham.png" width="70px" height="70px">
+        <h2>KEMENTRIAN HUKUM DAN HAK AZASI MANUSIA</h2>
+        <h3>REPUBLIK INDONESIA</h3>
+        <ul>
+            <input type="text" placeholder="cari.." required>
+        </ul>
+    </div>
+    <div class="MenuHeader" align="left">
+        <ul>
+            <li><a title="profil"href="">Profil</a>
+                <ul class="profilMenu">
+                    <li><a href="https://www.kemenkumham.go.id/profil/struktur-organisasi" title="struktur organisasi"style="font-size: 14px;"> Struktur Organisasi</a></li>
+                    <li><a href="#1" title="Profil Pejabat"> Profil Pejabat</a></li>
+                    <li><a href="#1" title="Visi dan Misi"> visi dan misi</a></li>
+                    <li><a href="#1" title="Tata Nilai"> Tata Nilai</a></li>
+                </ul>
+            </li>
+            <li><a title="produk hukum" href="">Produk Hukum</a>
+                <ul class="produkHukum">
+                    <li><a href="#1" title="UUD RI Tahun 1945" style="font-size: 14px;"> UUD RI Tahun 1945</a></li>
+                    <li><a href="#1" title="Undang-Undang"> Undang-Undang</a></li>
+                    <li><a href="#1" title="PERPPU"> PERPPU</a></li>
+                    <li><a href="#1" title="Peraturan Pemerintah" style="font-size: 15px;"> PP</a></li>
+                </ul>
+            </li>
+            <li><a title="Unit Pusat"href="">Unit Pusat</a>
+                <ul class="unitPusat">
+                    <li><a href="#1" title="Sekretaris Jendral"> Sekretaris Jendral</a></li>
+                    <li><a href="#1" title="Ditjen Perundang-undangan"> Ditjen PU</a></li>
+                    <li><a href="#1" title="Ditjen permasyarakatan"> Ditjen PM</a></li>
+                    <li><a href="#1" title="Ditjen Imigrasi"> Ditjen Imigrasi</a></li>
+                </ul>
+            </li>
+            <li><a title="Kantor Wilayah"href="">Kantor Wilayah</a>
+                <ul class="kantorWilayah">
+                    <li><a href="#1" title="SUMATERA"> SUMATERA</a></li>
+                    <li><a href="#1" title="JAWA"> JAWA</a></li>
+                    <li><a href="#1" title="KALIMANTAN"> KALIMANTAN</a></li>
+                    <li><a href="#1" title="SULAWESI"> SULAWESI</a></li>
+                </ul>
+            </li>
+            <li><a title="Informasi Publik"href="">Informasi Publik</a>
+                <ul class="informasiPublik">
+                    <li><a href="#1" title="FAQ"> FAQ</a></li>
+                    <li><a href="#1" title="LAKIP"> LAKIP</a></li>
+                    <li><a href="#1" title="LAPORAN TAHUNAN"style="font-size: 14px;"> Laporan Tahunan</a></li>
+                    <li><a href="#1" title="RENCANA STRATEGIS"style="font-size: 14px;"> Rencana Strategis</a></li>
+                </ul>
+            </li>
+            <li><a title="Publikasi"href="">Publikasi</a>
+                <ul class="publikasi">
+                    <li><a href="#1" title="Pidato Mentri"> Pidato Mentri</a></li>
+                    <li><a href="#1" title="Ebook"> Ebook</a></li>
+                    <li><a href="#1" title="Jurnal Penelitian"> Jurnal Penelitian</a></li>
+                    <li><a href="#1" title="Brosur dan Leaflet"style="font-size: 14px;"> Brosur dan Leaflet</a></li>
+                </ul>
+            </li>
+            <li><a title="Layanan Publik"href="">Layanan Publik</a>
+                <ul class="layananPublik">
+                    <li><a href="#1" title="LPSE">LPSE</a></li>
+                    <li><a href="#1" title="Survei indek kepuasan masyarakat"style="font-size: 14px;">SIKM</a></li>
+                    <li><a href="#1" title="Survei index integritas"style="font-size: 14px;">SIT</a></li>
+                    <li><a href="#1" title="Form Konsultasi Hukum dan HAM"style="font-size: 15px;"> FK Hukum dan HAM</a></li>
+                </ul>
+            </li>
+            <li><a title="Kontak Kami" href="">KONTAK KAMI</a></li>
+        </ul>
+    </div>
+    <div class="contentKumham">
+        <img src="kumham1.png" width="1195px">
+    </div>
+    <div class="contentKumham2">
+        <ul>
+            <li><a href="#">UNIT PUSAT</a></li>
+            <li><a href="#">LAYANAN PENGADUAN MASYARAKAT</a></li>
+            <li><a href="#">LAYANAN ONLINE</a></li>
+            <li><a href="#">E-PASTI</a></li>
+            <li><a href="#">APLIKASI</a></li>
+            <li><a href="#">INFO INTERNAL</a></li>
+        </ul>
+    </div>
+    <div class=simbolKumham>
+    <div class="simbolKumham1">
+        <p>Sekretariat Jendral</p>
+        <img src="logo1.png" width="80px" height="80px">
+    </div>
+    <div class="simbolKumham2">
+        <p>Ditjen PP</p>
+        <img src="logo2.png"width="80px" height="80px">
+    </div>
+    <div class="simbolKumham3">
+        <p>Ditjen AHU</p>
+        <img src="logo3.png"width="80px" height="80px">
+    </div>
+    <div class="simbolKumham4">
+        <p>Ditjen PAS</p>
+        <img src="logo4.png"width="80px" height="80px">
+    </div>
+    <div class="simbolKumham5">
+        <p>Ditjen Imigrasi</p>
+        <img src="logo5.png"width="80px" height="80px">
+    </div>
+    <div class="simbolKumham6">
+        <p>Ditjen KI</p>
+        <img src="logo6.png"width="80px" height="80px">
+    </div>
+    <div class="simbolKumham7">
+        <p>Ditjen HAM</p>
+        <img src="logo7.png"width="80px" height="80px">
+    </div>
+    <div class="simbolKumham8">
+        <p>Ispektorat Jendral</p>
+        <img src="logo8.png"width="80px" height="80px">
+    </div>
+    <div class="simbolKumham9">
+        <p>BPHN</p>
+        <img src="logo9.png"width="80px" height="80px">
+    </div>
+    <div class="simbolKumham10">
+        <p>Litbang KUMHAM</p>
+        <img src="logo10.png"width="80px" height="80px">
+    </div>
+    <div class="simbolKumham11">
+        <p>BPSDM KUMHAM</p>
+        <img src="11.png"width="80px" height="80px">
+    </div>
+</div>
+<div class="beritaKumham">
+    <img src="berita1.png">
+</div>
+</body>
+</html>

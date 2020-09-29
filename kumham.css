@@ -1,0 +1,66 @@
+/* header*/
+.headerLogo{
+    border: 1px solid;
+    border-width: 200px;
+    margin-bottom: 10px;
+    background-color: brown;
+    border-color: brown;
+}
+.headerLogo h2{
+    border:1px none;
+    margin-left: 80px;
+    margin-top:70px;
+    font-size: 24px;
+    color:black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Peddana', serif;
+}
+.headerLogo h3{
+    border:1px none;
+    margin-left: 80px;
+    margin-top:-40px;
+    font-size: 24px;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Peddana', serif;
+}
+.headerLogo ul{
+    margin-left: 900px;
+    margin-top: -60px;
+    color:white;
+}
+.headerLogo input{
+    width: auto;
+}
+
+/* HEADER MENU*/
+.MenuHeader{
+    border: 1px solid;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    margin-right:65px ;
+    margin-left: 100px ;
+    padding: 20px;
+    background-color: white;
+    border-color:#808080;
+}
+.MenuHeader ul li{
+    float: left;
+    padding: 1px;
+    margin-left: 20px;
+    list-style-type: none;
+    margin-top: -15px;
+}
+.MenuHeader a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ACTIVE MENU*/
+
+/* dropdown menu*/
+.navbarMenu ul{
+    list-style-type: none;
+    border: 1px none;
+}
+
